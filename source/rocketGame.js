@@ -24,9 +24,9 @@ function preload ()
     //this.load.setBaseURL('http://labs.phaser.io');
   
 
-    this.load.image('sky', 'assets/img/rocket.png');
+    this.load.image('sky', 'assets/img/btile.png');
     this.load.image('rocket', 'assets/img/rocket.png');
-    this.load.image('red', 'assets/img/rocket.png');
+    this.load.image('red', 'assets/img/bubble-particle.png');
 }
 
 function create ()
@@ -51,6 +51,6 @@ function create ()
 }
 
 function update(){
-
+    
     
 }
